@@ -139,15 +139,13 @@ body{
 
 }
 #col-1{
-  display: flex;
-  justify-content: center;
+
   margin-right: 48px;
   margin-left: 48px;
 
 }
 #third-page-cols img{
-  display: flex;
-  justify-content: center;
+
   max-width: 552px;
   height: auto;
 }
@@ -227,7 +225,7 @@ span{
   color:#2D3840;
   font-weight: 500;
 }
-a{
+a:link{
   font-family: EBGaramond-Italic, "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: 400;
@@ -238,6 +236,19 @@ a{
   line-height: 24px;
   margin-top:8px;
   text-decoration: none;
+}
+a:visited {
+    color:#DAAA48 ;
+}
+
+/* mouse over link */
+a:hover {
+text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  text-decoration: underline;
 }
 h1{
 font-family: BigCaslon-Medium, "Times New Roman", Times, serif;
