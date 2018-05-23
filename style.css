@@ -248,7 +248,7 @@ text-decoration: underline;
 
 /* selected link */
 a:active {
-  text-decoration: underline;
+    color: #DAAA48;
 }
 h1{
 font-family: BigCaslon-Medium, "Times New Roman", Times, serif;
